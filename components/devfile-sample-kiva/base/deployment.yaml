@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-kiva
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0050-tenant/tkrw-pr712-0075-0050-app/devfile-sample-kiva@sha256:294438dfd071eeee928cdacebdd59831c9ef38ac865dd47d58b26d35faf5ba19
         name: my-nodejs
         ports:
         - containerPort: 3001
